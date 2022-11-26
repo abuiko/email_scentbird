@@ -1,0 +1,1 @@
+Recreated ScentBird Promotional email using HTML tables
