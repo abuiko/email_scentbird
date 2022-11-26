@@ -1,536 +1,551 @@
-<!DOCTYPE html
-    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" style="margin:0;">
-
-<head>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Email</title>
-
     <style type="text/css">
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-        }
-
-        table {
-            border-spacing: 0;
-        }
-
-        td {
-            padding: 0;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        img {
-            border: 0;
-        }
-
-        .wrapper {
-            background: #ffffff;
-            width: 100%;
-            padding-bottom: 50px;
-            table-layout: fixed;
-        }
-
-        .main {
-            width: 100%;
-            max-width: 600px;
-            color: #fffdf8;
-            background-color: #000000;
-            text-align: center;
-        }
-
-        .two-columns .column {
-            display: inline;
-            vertical-align: baseline;
-            width: 100%;
-            max-width: 250px;
-            text-align: center;
-        }
-
-        .black-btn {
-            color: #ffffff;
-            background: #000000;
-            padding: 10px 15px;
-            font-size: 13px;
-            display: block;
-        }
-
-        .zodiacs .zodiac-column {
-            width: 100%;
-            max-width: 210px;
-            display: inline-block;
-            vertical-align: top;
-            text-align: center;
-        }
-
-        .zodiacs p {
-            height: 45px;
-        }
-
-        .zodiacs .padding {
-            padding: 10px 13px 50px;
-        }
-
-        .gold-btn {
-            color: #fffef8;
-            border: 1px solid #DCC155;
-            border-radius: 6px;
-            padding: 10px 25px;
-            font-size: 14px;
-        }
-
-        @media screen and (max-width: 435px) {
-
-            .two-columns p {
-                font-size: 12px !important;
-                padding: 8px !important;
-            }
-
-            .black-btn {
-                font-size: 10px !important;
-            }
-
-            .zodiacs img {
-                width: 110px !important;
-                height: 100px !important;
-            }
-
-            .zodiacs .zodiac-column {
-                max-width: 130px !important;
-            }
-
-            .zodiacs .padding {
-                padding: 10px 9px 40px !important;
-            }
-
-            .zodiacs p {
-                font-size: 11px !important;
-                height: 25px !important;
-            }
-
-            .gold-btn {
-                padding: 7px 4px !important;
-                font-size: 8px !important;
-            }
-        }
+      
+      @media screen and (max-width: 450px) {
+          .two-columns {
+              padding-left: 0px !important;
+              padding-right: 0px !important;
+          }
+          .two-columns .col-header {
+              padding: 0 7px 0 0 !important;
+          }
+          .zodiacs .zodiac-column {
+              max-width: 180px !important;
+          }
+          .zodiac-img {
+              padding: 10px 50px 10px !important;
+          }
+          .zodiac-img img {
+              width: 80px !important;
+              height: 80px !important;
+          }
+          .zodiacs p {
+              font-size: 11px !important;
+          }
+          .zodiac-btn {
+              padding: 10px 25px !important;
+          }
+      }
+      @media screen and (max-width: 300px) {
+          .logo {
+              width: 130px !important;
+          }
+          .two-columns h3 {
+              font-size: 9px !important;
+          }
+          .button {
+              font-size: 9px !important;
+          }
+          .zodiacs .padding {
+              padding-bottom: 20px !important;
+          }
+          .zodiacs .zodiac-column {
+              max-width: 130px !important;
+          }
+          .zodiac-img {
+              padding: 10px 30px 10px !important;
+          }
+          .zodiac-img img {
+              width: 70px !important;
+              height: 70px !important;
+          }
+          .zodiacs p {
+              font-size: 9px !important;
+              padding-bottom: 30px !important;
+          }
+          .zodiac-btn {
+              padding: 5px 10px !important;
+              font-size: 8px !important;
+              border-radius: 0px !important;
+          }
+          .store-icon {
+              width: 100px !important;
+          }
+          .socials img {
+          width: 25px !important;
+          padding: 0 5px !important;
+      }
+      }
     </style>
-</head>
-
-<body>
-    <center class="wrapper">
-        <table class="main">
-            <tr>
-                <td style="padding: 30px 0px; text-align: center">
-                    <table width="100%">
-                        <tr>
-                            <td>
-                                <a href="#"><img width="150" src="https://i.ibb.co/v1dZcjh/logo.png" class="logo"></a>
+  </head>
+  <body style="margin:0;">
+    <center class="wrapper" style="background:#fff;width:100%;padding-bottom:60px;table-layout:fixed;">
+      <table class="main" style="border-spacing:0;width:100%;max-width:600px;font-family:sans-serif;text-align:center;">
+      
+        <tr>
+          <td style="padding:0;">
+            <table width="100%" style="border-spacing:0;">
+              <tr>
+                <td style="padding: 25px 0; text-align: center; background-color: #000000;">
+                  <a href="#"><img src="https://i.ibb.co/v1dZcjh/logo.png" class="logo" width="170" alt="logo" title="ScentBird" style="border:0;"></a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- SUBSCRIBE HEADER -->
+        <tr>
+          <td style="padding:0;">
+            <table width="100%" style="border-spacing:0;">
+              <tr>
+                <td class="two-columns" style="padding:0;text-align:center;font-size:0;padding:20px 10px;background-color:#8D7C3A;">
+                  <table class="column" style="border-spacing:0;display:inline;width:100%;max-width:300px;vertical-align:top;text-align:center;">
+                    <tr>
+                      <td class="col-header" style="padding: 0 15px 0;">
+                        <h3 style="margin:0;color:#fff;font-size:13px;font-weight:normal;">Score 50% off. Plus FREE atomizer case.</h3>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column" style="border-spacing:0;display:inline;width:100%;max-width:300px;vertical-align:top;text-align:center;">
+                    <tr>
+                      <td style="padding:0;">
+                        <a href="#" class="button" style="background-color:#000;color:#fff;border-radius:5px;text-decoration:none;padding:10px 20px;font-size:11px;">SUBSCRIBE</a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- BANNER -->
+        <tr>
+          <td style="padding:0;background-color: #000;">
+            <a href="#">
+              <img width="600" style="border:0;max-width: 100%;" src="https://i.ibb.co/jgXjbGt/main.png" alt="banner" title="banner">
+            </a>
+          </td>
+        </tr>
+        <!-- SIGNS COLUMNS -->
+        <tr>
+          <td style="padding:0;background-color: #000;">
+            <table width="100%" style="border-spacing:0;max-width: 500px; margin: auto;">
+              <tr>
+                <td class="zodiacs" style="padding:0;font-size:0;padding-top:10px;padding-bottom:40px;text-align:center;">
+                  <table class="zodiac-column" style="border-spacing:0;display:inline-block;vertical-align:top;text-align:center;width:100%;max-width:250px;">
+                    <tr>
+                      <td class="padding" style="padding:0;padding:10px 0px 50px;">
+                        <table class="content" style="border-spacing:0;">
+                          <tr>
+                            <td class="zodiac-img" style="padding:0;padding:10px 65px 10px;">
+                              <a href="#">
+                                <img width="120" height="120" style="border:0;max-width: 120px;" src="https://i.ibb.co/Ybz3fpf/aries.png" alt="aries">
+                              </a>
                             </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-
-            <tr>
-                <td style="background-color: #8D7C3A; padding: 15px 5px;">
-                    <table width="100%">
-                        <tr>
-                            <td class="two-columns" style="font-size: 0; text-align: center">
-                                <table class="column">
-                                    <tr>
-                                        <td>
-                                            <p style="margin: 0;
-                                            padding: 10px; font-size: 15px; color: #ffffff">
-                                                Score 50% off. Plus
-                                                FREE atomizer
-                                                case.</p>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table class="column">
-                                    <tr>
-                                        <td>
-                                            <a href="#" class="black-btn">SUBSCRIBE</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    <a href="#"><img width="600px" style="max-width: 100%" src="https://i.ibb.co/jgXjbGt/main.png"
-                            alt="banner" title="October Scents"></a>
-                </td>
-            </tr>
-            <tr>
-                <td style="background-color: #000000;">
-                    <table width="100%">
-                        <tr>
-                            <td class="zodiacs"
-                                style="font-size: 0; text-align: center; padding-top: 30px; padding-bottom: 50px">
-                                <table class="zodiac-column">
-                                    <tr>
-                                        <td class="padding">
-                                            <table class="content">
-                                                <tr>
-                                                    <td>
-                                                        <a href="#"><img width="150" height="140"
-                                                                style="max-width: 100%"
-                                                                src="https://i.ibb.co/Ybz3fpf/aries.png"
-                                                                alt="aries"></a>
-                                                        <p
-                                                            style="margin: 0; padding-bottom: 20px; padding-top: 20px; font-size: 15px">
-                                                            Satiate your
-                                                            desires.
-                                                        </p>
-                                                        <a href="#" class="gold-btn">REVEAL MY SCENT</a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-
-                                <table class="zodiac-column">
-                                    <tr>
-                                        <td class="padding">
-                                            <table class="content">
-                                                <tr>
-                                                    <td>
-                                                        <a href="#"><img width="150" height="140"
-                                                                style="max-width: 100%"
-                                                                src="https://i.ibb.co/xJRVf4P/taurus.png"
-                                                                alt="taurus"></a>
-                                                        <p
-                                                            style="margin: 0; padding-bottom: 20px; padding-top: 20px; font-size: 15px">
-                                                            You are the queen.
-                                                        </p>
-                                                        <a href="#" class="gold-btn">REVEAL MY SCENT</a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-
-                                <table class="zodiac-column">
-                                    <tr>
-                                        <td class="padding">
-                                            <table class="content">
-                                                <tr>
-                                                    <td>
-                                                        <a href="#"><img width="150" height="140"
-                                                                style="max-width: 100%"
-                                                                src="https://i.ibb.co/GT8R1SH/gemini.png"
-                                                                alt="gemini"></a>
-                                                        <p
-                                                            style="margin: 0; padding-bottom: 20px; padding-top: 20px; font-size: 15px">
-                                                            Fear not, you've got this.
-                                                        </p>
-                                                        <a href="#" class="gold-btn">REVEAL MY SCENT</a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table class="zodiac-column">
-                                    <tr>
-                                        <td class="padding">
-                                            <table class="content">
-                                                <tr>
-                                                    <td>
-                                                        <a href="#"><img width="150" height="140"
-                                                                style="max-width: 100%"
-                                                                src="https://i.ibb.co/C5823XR/cancer.png"
-                                                                alt="cancer"></a>
-                                                        <p
-                                                            style="margin: 0; padding-bottom: 20px; padding-top: 20px; font-size: 15px">
-                                                            Temptress in the night.
-                                                        </p>
-                                                        <a href="#" class="gold-btn">REVEAL MY SCENT</a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table class="zodiac-column">
-                                    <tr>
-                                        <td class="padding">
-                                            <table class="content">
-                                                <tr>
-                                                    <td>
-                                                        <a href="#"><img width="150" height="140"
-                                                                style="max-width: 100%"
-                                                                src="https://i.ibb.co/6D3B1df/leo.png" alt="leo"></a>
-                                                        <p
-                                                            style="margin: 0; padding-bottom: 20px; padding-top: 20px; font-size: 15px">
-                                                            You are born to rule.
-                                                        </p>
-                                                        <a href="#" class="gold-btn">REVEAL MY SCENT</a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table class="zodiac-column">
-                                    <tr>
-                                        <td class="padding">
-                                            <table class="content">
-                                                <tr>
-                                                    <td>
-                                                        <a href="#"><img width="150" height="140"
-                                                                style="max-width: 100%"
-                                                                src="https://i.ibb.co/qd0HMkX/virgo.png"
-                                                                alt="virgo"></a>
-                                                        <p
-                                                            style="margin: 0; padding-bottom: 20px; padding-top: 20px; font-size: 15px">
-                                                            Embrace the uniqueness.
-                                                        </p>
-                                                        <a href="#" class="gold-btn">REVEAL MY SCENT</a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table class="zodiac-column">
-                                    <tr>
-                                        <td class="padding">
-                                            <table class="content">
-                                                <tr>
-                                                    <td>
-                                                        <a href="#"><img width="150" height="140"
-                                                                style="max-width: 100%"
-                                                                src="https://i.ibb.co/7XQxphp/libra.png"
-                                                                alt="libra"></a>
-                                                        <p
-                                                            style="margin: 0; padding-bottom: 20px; padding-top: 20px; font-size: 15px">
-                                                            This scent will give you chills.
-                                                        </p>
-                                                        <a href="#" class="gold-btn">REVEAL MY SCENT</a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table class="zodiac-column">
-                                    <tr>
-                                        <td class="padding">
-                                            <table class="content">
-                                                <tr>
-                                                    <td>
-                                                        <a href="#"><img width="150" height="140"
-                                                                style="max-width: 100%"
-                                                                src="https://i.ibb.co/q9dPVVh/scorpio.png"
-                                                                alt="scorpio"></a>
-                                                        <p
-                                                            style="margin: 0; padding-bottom: 20px; padding-top: 20px; font-size: 15px">
-                                                            Creative energy all the way.
-                                                        </p>
-                                                        <a href="#" class="gold-btn">REVEAL MY SCENT</a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table class="zodiac-column">
-                                    <tr>
-                                        <td class="padding">
-                                            <table class="content">
-                                                <tr>
-                                                    <td>
-                                                        <a href="#"><img width="150" height="140"
-                                                                style="max-width: 100%"
-                                                                src="https://i.ibb.co/djRgJWH/sagittarius.png"
-                                                                alt="sagittarius"></a>
-                                                        <p
-                                                            style="margin: 0; padding-bottom: 20px; padding-top: 20px; font-size: 15px">
-                                                            The night is your for the taking.
-                                                        </p>
-                                                        <a href="#" class="gold-btn">REVEAL MY SCENT</a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table class="zodiac-column">
-                                    <tr>
-                                        <td class="padding">
-                                            <table class="content">
-                                                <tr>
-                                                    <td>
-                                                        <a href="#"><img width="150" height="140"
-                                                                style="max-width: 100%"
-                                                                src="https://i.ibb.co/D9sZpQP/capricorn.png"
-                                                                alt="capricorn"></a>
-                                                        <p
-                                                            style="margin: 0; padding-bottom: 20px; padding-top: 20px; font-size: 15px">
-                                                            Midnight is when the sun starts.
-                                                        </p>
-                                                        <a href="#" class="gold-btn">REVEAL MY SCENT</a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table class="zodiac-column">
-                                    <tr>
-                                        <td class="padding">
-                                            <table class="content">
-                                                <tr>
-                                                    <td>
-                                                        <a href="#"><img width="150" height="140"
-                                                                style="max-width: 100%"
-                                                                src="https://i.ibb.co/jymFJqY/aquarius.png"
-                                                                alt="aquarius"></a>
-                                                        <p
-                                                            style="margin: 0; padding-bottom: 20px; padding-top: 20px; font-size: 15px">
-                                                            You are out of this world.
-                                                        </p>
-                                                        <a href="#" class="gold-btn">REVEAL MY SCENT</a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table class="zodiac-column">
-                                    <tr>
-                                        <td class="padding">
-                                            <table class="content">
-                                                <tr>
-                                                    <td>
-                                                        <a href="#"><img width="150" height="140"
-                                                                style="max-width: 100%"
-                                                                src="https://i.ibb.co/TcTZ4Hh/pisces.png"
-                                                                alt="pisces"></a>
-                                                        <p
-                                                            style="margin: 0; padding-bottom: 20px; padding-top: 20px; font-size: 15px">
-                                                            Skin on skin? Yes, please.
-                                                        </p>
-                                                        <a href="#" class="gold-btn">REVEAL MY SCENT</a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td style="background-color: #8D7C3A; padding: 15px 0px;">
-                    <a href="#"><img width="200px" src="https://i.ibb.co/1sVffst/message.png" alt="text alert"
-                            style="border:0;"></a>
-                </td>
-            </tr>
-            <tr>
-                <td style="background-color: #000; padding: 50px 0px 50px;">
-                    <table width="100%" style="border-spacing:0;">
-                        <tr>
+                          </tr>
+                          <tr>
                             <td style="padding:0;">
-                                <a href="#"><img width="50" src="https://i.ibb.co/095m8f3/logo2.png" alt="logo"
-                                        style="border:0;"></a>
+                              <p style="margin:0;font-size:13px;color:rgb(255, 244, 223);padding:10px 0 40px;">Satiate your desires.</p>
                             </td>
-                        </tr>
-                        <tr>
-                            <td class="icons" style="padding:0;font-size:0;text-align:center;padding:50px 0px;">
-                                <table class="icon-col"
-                                    style="border-spacing:0;width:100%;max-width:500px;display:inline;vertical-align:top;">
-                                    <tr>
-                                        <td style="padding: 0 10px 0;">
-                                            <a href="#">
-                                                <img class="store-icon" width="100"
-                                                    src="https://i.ibb.co/c1NgT6T/googleplay.png" alt="google play"
-                                                    style="border:0;">
-                                            </a>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table class="icon-col"
-                                    style="border-spacing:0;width:100%;max-width:500px;display:inline;vertical-align:top;">
-                                    <tr>
-                                        <td style="padding:0 10px 0;">
-                                            <a href="#">
-                                                <img class="store-icon" width="100"
-                                                    src="https://i.ibb.co/D77VFjN/istore.png" alt="store"
-                                                    style="border:0;">
-                                            </a>
-                                        </td>
-                                    </tr>
-                                </table>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <a href="#" class="zodiac-btn" style="color:rgb(255, 244, 223);text-decoration:none;border:1px solid #8D7C3A;padding:15px 40px;border-radius:8px;font-size:12px;">REVEAL MY SCENT</a>
                             </td>
-                        </tr>
-                        <tr>
-                            <td class="socials" style="padding:0;max-width:500px;width:100%;padding:0px 0px 50px;">
-                                <a href="#"><img src="https://i.ibb.co/F5R3H1F/facebook.png" alt="facebook"
-                                        style="border:0;width:26px;padding:0 6px;"></a>
-                                <a href="#"><img src="https://i.ibb.co/VjVLWbp/instagram.png" alt="instagram"
-                                        style="border:0;width:26px;padding:0 6px;"></a>
-                                <a href="#"><img src="https://i.ibb.co/BnPSpwy/pinterest.png" alt="pinterest"
-                                        style="border:0;width:26px;padding:0 6px;"></a>
-                                <a href="#"><img src="https://i.ibb.co/5n814mB/twitter.png" alt="twitter"
-                                        style="border:0;width:26px;padding:0 6px;"></a>
-                                <a href="#"><img src="https://i.ibb.co/r3Ndpcq/tiktok.png" alt="tiktok"
-                                        style="border:0;width:26px;padding:0 6px;"></a>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="zodiac-column" style="border-spacing:0;display:inline-block;vertical-align:top;text-align:center;width:100%;max-width:250px;">
+                    <tr>
+                      <td class="padding" style="padding:0;padding:10px 0px 50px;">
+                        <table class="content" style="border-spacing:0;">
+                          <tr>
+                            <td class="zodiac-img" style="padding:0;padding:10px 65px 10px;">
+                              <a href="#">
+                                <img width="120" height="120" style="border:0;max-width: 120px;" src="https://i.ibb.co/xJRVf4P/taurus.png" alt="taurus">
+                              </a>
                             </td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 0 20px;">
-                                <p style="margin:0;color:rgb(255, 244, 223);padding:10px 0 40px;font-size: 12px;">
-                                    SCENTBIRD 2022, All right reserved. Made with love in New‌ Yo‌rk ‌Ci‌ty.
-                                </p>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <p style="margin:0;font-size:13px;color:rgb(255, 244, 223);padding:10px 0 40px;">You are the queen.</p>
                             </td>
-                        </tr>
-
-                        <tr>
-                            <td style="padding: 0 20px;">
-                                <p
-                                    style="margin:0;color:rgb(255, 244, 223);padding:10px 0 40px;font-size: 12px; padding-bottom: 20px;">
-                                    Scentbird Inc., 16‌00 Per‌rine‌ville‌ Rd S‌te‌.2-‌395 Mon‌roe ‌Tw‌p., N‌J 08‌83‌1
-                                </p>
-                                <p
-                                    style="color:rgb(255, 244, 223);padding:10px 0 40px;font-size: 11px; max-width: 430px; margin: auto;">
-                                    *Savings of 50% off will automatically be applied at checkout
-                                    and is only valid for the first month of 1 product per month
-                                    subscription plan ($16.95 per month). If a product has an
-                                    upcharge, the discount will be applied to the subscription
-                                    price ONLY. It cannot be applied to any previous order or
-                                    combined with any other offer. Limit one-time offer per
-                                    customer. Non-transferable, cannot be redeemed for cash.
-                                    Discount excludes any applicable taxes or shipping.
-                                    Scentbird reserves the right to modify or cancel the
-                                    offer at any time. Free shipping applies within the
-                                    contiguous United States only. Shipping is $4.99 USD
-                                    for Canadian customers.
-                                </p>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <a href="#" class="zodiac-btn" style="color:rgb(255, 244, 223);text-decoration:none;border:1px solid #8D7C3A;padding:15px 40px;border-radius:8px;font-size:12px;">REVEAL MY SCENT</a>
                             </td>
-                        </tr>
-                    </table>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="zodiac-column" style="border-spacing:0;display:inline-block;vertical-align:top;text-align:center;width:100%;max-width:250px;">
+                    <tr>
+                      <td class="padding" style="padding:0;padding:10px 0px 50px;">
+                        <table class="content" style="border-spacing:0;">
+                          <tr>
+                            <td class="zodiac-img" style="padding:0;padding:10px 65px 10px;">
+                              <a href="#">
+                                <img width="120" height="120" style="border:0;max-width: 120px;" src="https://i.ibb.co/GT8R1SH/gemini.png" alt="gemini">
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <p style="margin:0;font-size:13px;color:rgb(255, 244, 223);padding:10px 0 40px;">Fear not, you've got this.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <a href="#" class="zodiac-btn" style="color:rgb(255, 244, 223);text-decoration:none;border:1px solid #8D7C3A;padding:15px 40px;border-radius:8px;font-size:12px;">REVEAL MY SCENT</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="zodiac-column" style="border-spacing:0;display:inline-block;vertical-align:top;text-align:center;width:100%;max-width:250px;">
+                    <tr>
+                      <td class="padding" style="padding:0;padding:10px 0px 50px;">
+                        <table class="content" style="border-spacing:0;">
+                          <tr>
+                            <td class="zodiac-img" style="padding:0;padding:10px 65px 10px;">
+                              <a href="#">
+                                <img width="120" height="120" style="border:0;max-width: 120px;" src="https://i.ibb.co/C5823XR/cancer.png" alt="cancer">
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <p style="margin:0;font-size:13px;color:rgb(255, 244, 223);padding:10px 0 40px;">Temptress in the night.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <a href="#" class="zodiac-btn" style="color:rgb(255, 244, 223);text-decoration:none;border:1px solid #8D7C3A;padding:15px 40px;border-radius:8px;font-size:12px;">REVEAL MY SCENT</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="zodiac-column" style="border-spacing:0;display:inline-block;vertical-align:top;text-align:center;width:100%;max-width:250px;">
+                    <tr>
+                      <td class="padding" style="padding:0;padding:10px 0px 50px;">
+                        <table class="content" style="border-spacing:0;">
+                          <tr>
+                            <td class="zodiac-img" style="padding:0;padding:10px 65px 10px;">
+                              <a href="#">
+                                <img width="120" height="120" style="border:0;max-width: 120px;" src="https://i.ibb.co/6D3B1df/leo.png" alt="leo">
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <p style="margin:0;font-size:13px;color:rgb(255, 244, 223);padding:10px 0 40px;">You are born to rule.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <a href="#" class="zodiac-btn" style="color:rgb(255, 244, 223);text-decoration:none;border:1px solid #8D7C3A;padding:15px 40px;border-radius:8px;font-size:12px;">REVEAL MY SCENT</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="zodiac-column" style="border-spacing:0;display:inline-block;vertical-align:top;text-align:center;width:100%;max-width:250px;">
+                    <tr>
+                      <td class="padding" style="padding:0;padding:10px 0px 50px;">
+                        <table class="content" style="border-spacing:0;">
+                          <tr>
+                            <td class="zodiac-img" style="padding:0;padding:10px 65px 10px;">
+                              <a href="#">
+                                <img width="120" height="120" style="border:0;max-width: 120px;" src="https://i.ibb.co/qd0HMkX/virgo.png" alt="virgo">
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <p style="margin:0;font-size:13px;color:rgb(255, 244, 223);padding:10px 0 40px;">Embrace the uniqueness.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <a href="#" class="zodiac-btn" style="color:rgb(255, 244, 223);text-decoration:none;border:1px solid #8D7C3A;padding:15px 40px;border-radius:8px;font-size:12px;">REVEAL MY SCENT</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="zodiac-column" style="border-spacing:0;display:inline-block;vertical-align:top;text-align:center;width:100%;max-width:250px;">
+                    <tr>
+                      <td class="padding" style="padding:0;padding:10px 0px 50px;">
+                        <table class="content" style="border-spacing:0;">
+                          <tr>
+                            <td class="zodiac-img" style="padding:0;padding:10px 65px 10px;">
+                              <a href="#">
+                                <img width="120" height="120" style="border:0;max-width: 120px;" src="https://i.ibb.co/7XQxphp/libra.png" alt="libra">
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <p style="margin:0;font-size:13px;color:rgb(255, 244, 223);padding:10px 0 40px;">A scent that will give you chills.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <a href="#" class="zodiac-btn" style="color:rgb(255, 244, 223);text-decoration:none;border:1px solid #8D7C3A;padding:15px 40px;border-radius:8px;font-size:12px;">REVEAL MY SCENT</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="zodiac-column" style="border-spacing:0;display:inline-block;vertical-align:top;text-align:center;width:100%;max-width:250px;">
+                    <tr>
+                      <td class="padding" style="padding:0;padding:10px 0px 50px;">
+                        <table class="content" style="border-spacing:0;">
+                          <tr>
+                            <td class="zodiac-img" style="padding:0;padding:10px 65px 10px;">
+                              <a href="#">
+                                <img width="120" height="120" style="border:0;max-width: 120px;" src="https://i.ibb.co/q9dPVVh/scorpio.png" alt="scorpio">
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <p style="margin:0;font-size:13px;color:rgb(255, 244, 223);padding:10px 0 40px;">Creative energy all the way.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <a href="#" class="zodiac-btn" style="color:rgb(255, 244, 223);text-decoration:none;border:1px solid #8D7C3A;padding:15px 40px;border-radius:8px;font-size:12px;">REVEAL MY SCENT</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="zodiac-column" style="border-spacing:0;display:inline-block;vertical-align:top;text-align:center;width:100%;max-width:250px;">
+                    <tr>
+                      <td class="padding" style="padding:0;padding:10px 0px 50px;">
+                        <table class="content" style="border-spacing:0;">
+                          <tr>
+                            <td class="zodiac-img" style="padding:0;padding:10px 65px 10px;">
+                              <a href="#">
+                                <img width="120" height="120" style="border:0;max-width: 120px;" src="https://i.ibb.co/djRgJWH/sagittarius.png" alt="sagittarius">
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <p style="margin:0;font-size:13px;color:rgb(255, 244, 223);padding:10px 0 40px;">The night is your for the taking.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <a href="#" class="zodiac-btn" style="color:rgb(255, 244, 223);text-decoration:none;border:1px solid #8D7C3A;padding:15px 40px;border-radius:8px;font-size:12px;">REVEAL MY SCENT</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="zodiac-column" style="border-spacing:0;display:inline-block;vertical-align:top;text-align:center;width:100%;max-width:250px;">
+                    <tr>
+                      <td class="padding" style="padding:0;padding:10px 0px 50px;">
+                        <table class="content" style="border-spacing:0;">
+                          <tr>
+                            <td class="zodiac-img" style="padding:0;padding:10px 65px 10px;">
+                              <a href="#">
+                                <img width="120" height="120" style="border:0;max-width: 120px;" src="https://i.ibb.co/D9sZpQP/capricorn.png" alt="capricorn">
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <p style="margin:0;font-size:13px;color:rgb(255, 244, 223);padding:10px 0 40px;">Midnight is when the sun starts.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <a href="#" class="zodiac-btn" style="color:rgb(255, 244, 223);text-decoration:none;border:1px solid #8D7C3A;padding:15px 40px;border-radius:8px;font-size:12px;">REVEAL MY SCENT</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="zodiac-column" style="border-spacing:0;display:inline-block;vertical-align:top;text-align:center;width:100%;max-width:250px;">
+                    <tr>
+                      <td class="padding" style="padding:0;padding:10px 0px 50px;">
+                        <table class="content" style="border-spacing:0;">
+                          <tr>
+                            <td class="zodiac-img" style="padding:0;padding:10px 65px 10px;">
+                              <a href="#">
+                                <img width="120" height="120" style="border:0;max-width: 120px;" src="https://i.ibb.co/jymFJqY/aquarius.png" alt="aquarius">
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <p style="margin:0;font-size:13px;color:rgb(255, 244, 223);padding:10px 0 40px;">You are out of this world.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <a href="#" class="zodiac-btn" style="color:rgb(255, 244, 223);text-decoration:none;border:1px solid #8D7C3A;padding:15px 40px;border-radius:8px;font-size:12px;">REVEAL MY SCENT</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="zodiac-column" style="border-spacing:0;display:inline-block;vertical-align:top;text-align:center;width:100%;max-width:250px;">
+                    <tr>
+                      <td class="padding" style="padding:0;padding:10px 0px 50px;">
+                        <table class="content" style="border-spacing:0;">
+                          <tr>
+                            <td class="zodiac-img" style="padding:0;padding:10px 65px 10px;">
+                              <a href="#">
+                                <img width="120" height="120" style="border:0;max-width: 120px;" src="https://i.ibb.co/TcTZ4Hh/pisces.png" alt="pisces">
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <p style="margin:0;font-size:13px;color:rgb(255, 244, 223);padding:10px 0 40px;">Skin on skin? Yes, please.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding:0;">
+                              <a href="#" class="zodiac-btn" style="color:rgb(255, 244, 223);text-decoration:none;border:1px solid #8D7C3A;padding:15px 40px;border-radius:8px;font-size:12px;">REVEAL MY SCENT</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
                 </td>
-            </tr>
-        </table>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- TEXT ALERTS -->
+        <tr>
+          <td style="background-color: #8D7C3A; padding: 15px 0px;">
+            <a href="#"><img width="220px" src="https://i.ibb.co/1sVffst/message.png" alt="text alert" style="border:0;"></a>
+          </td>
+        </tr>
+        <!-- FOOTER  -->
+        <tr>
+          <td style="background-color: #000; padding: 50px 0px 50px;">
+            <table width="100%" style="border-spacing:0;">
+              <tr>
+                <td style="padding:0;">
+                  <a href="#"><img width="60" src="https://i.ibb.co/095m8f3/logo2.png" alt="logo" style="border:0;"></a>
+                </td>
+              </tr>
+              <tr>
+                <td class="icons" style="padding:0;font-size:0;text-align:center;padding:50px 0px;">
+                  <table class="icon-col" style="border-spacing:0;width:100%;max-width:500px;display:inline;vertical-align:top;">
+                    <tr>
+                      <td style="padding: 0 10px 0;">
+                        <a href="#">
+                          <img class="store-icon" width="130" src="https://i.ibb.co/c1NgT6T/googleplay.png" alt="google play" style="border:0;">
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="icon-col" style="border-spacing:0;width:100%;max-width:500px;display:inline;vertical-align:top;">
+                    <tr>
+                      <td style="padding: 0 0 0 10px;">
+                        <a href="#">
+                          <img class="store-icon" width="130" src="https://i.ibb.co/D77VFjN/istore.png" alt="store" style="border:0;">
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td class="socials" style="padding:0;max-width:500px;width:100%;padding:0px 0px 50px;">
+                  <a href="#"><img src="https://i.ibb.co/F5R3H1F/facebook.png" alt="facebook" style="border:0;width:31px;padding:0 12px;"></a>
+                  <a href="#"><img src="https://i.ibb.co/VjVLWbp/instagram.png" alt="instagram" style="border:0;width:31px;padding:0 12px;"></a>
+                  <a href="#"><img src="https://i.ibb.co/BnPSpwy/pinterest.png" alt="pinterest" style="border:0;width:31px;padding:0 12px;"></a>
+                  <a href="#"><img src="https://i.ibb.co/5n814mB/twitter.png" alt="twitter" style="border:0;width:31px;padding:0 12px;"></a>
+                  <a href="#"><img src="https://i.ibb.co/r3Ndpcq/tiktok.png" alt="tiktok" style="border:0;width:31px;padding:0 12px;"></a>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0 20px;">
+                  <p style="margin:0;color:rgb(255, 244, 223);padding:10px 0 40px;font-size: 13px;">
+                    SCENTBIRD ©2022, All right reserved. Made with love in New‌ Yo‌rk ‌Ci‌ty.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:0;">
+                  <table width="50%" style="border-spacing:0;">
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0 20px;">
+                  <p style="margin:0;color:rgb(255, 244, 223);padding:10px 0 40px;font-size: 13px; padding-bottom: 20px;">Scentbird Inc., 16‌00 Per‌rine‌ville‌ Rd S‌te‌.2-‌395 Mon‌roe ‌Tw‌p., N‌J 08‌83‌1
+                  </p>
+                  <p style="color:rgb(255, 244, 223);padding:10px 0 40px;font-size: 13px; max-width: 430px; margin: auto;">*Savings of 50% off will automatically be applied at checkout
+                    and is only valid for the first month of 1 product per month 
+                    subscription plan ($16.95 per month). If a product has an 
+                    upcharge, the discount will be applied to the subscription 
+                    price ONLY. It cannot be applied to any previous order or 
+                    combined with any other offer. Limit one-time offer per 
+                    customer. Non-transferable, cannot be redeemed for cash. 
+                    Discount excludes any applicable taxes or shipping. 
+                    Scentbird reserves the right to modify or cancel the 
+                    offer at any time. Free shipping applies within the 
+                    contiguous United States only. Shipping is $4.99 USD 
+                    for Canadian customers.
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
     </center>
-</body>
-
+  </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
